@@ -3,6 +3,11 @@
     "displayName": "BBC BASIC Syntax Highlighting",
     "description": "A syntax highlighter for BBC BASIC code (focusing on highlighting that works when codegolfing)",
     "version": "0.1.0",
+    "publisher": "TechieHelper",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TechieHelper/bbc-basic-syntax-highlighting.git"
+    },
     "engines": {
         "vscode": "^1.68.0"
     },
