@@ -1,0 +1,25 @@
+{
+    "name": "bbc-basic-syntax-highlighting",
+    "displayName": "BBC BASIC Syntax Highlighting",
+    "description": "A syntax highlighter for BBC BASIC code (focusing on highlighting that works when codegolfing)",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "bbcbasic",
+            "aliases": ["BBC BASIC", "bbcbasic"],
+            "extensions": [".bbc"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "bbcbasic",
+            "scopeName": "source.bbc",
+            "path": "./syntaxes/bbcbasic.tmLanguage.json"
+        }]
+    }
+}
