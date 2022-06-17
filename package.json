@@ -2,7 +2,7 @@
     "name": "bbc-basic-syntax-highlighting",
     "displayName": "BBC BASIC Syntax Highlighting",
     "description": "A syntax highlighter for BBC BASIC code (focusing on highlighting that works when codegolfing)",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "TechieHelper",
     "repository": {
         "type": "git",
